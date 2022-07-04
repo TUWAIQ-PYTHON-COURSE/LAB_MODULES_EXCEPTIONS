@@ -12,13 +12,12 @@ def additoin(x, y):
         print("Addition:", x + b)
 
 
-additoin(10, 20)
+try:
+    additoin(10, 20)
+except Exception as e:
+    print(e)
+else:
+    print("the operation is successful")
 
-while True:
-    try:
-        print("the operation is successful")
-        break
-    except Exception as e:
-        print(e)
     
 
